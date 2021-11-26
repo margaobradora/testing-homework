@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Testing example",
+  "main": "src/index.js",
+  "author": "Midori",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest ./tests/*.test.js",
+    "lint": "prettier ./src --write"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
